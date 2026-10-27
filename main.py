@@ -1,10 +1,15 @@
+# FILAS, QUEUES
+# FIFO
+
 queue = ['Felipe']
 
-def push(queue, data) -> None:
+def push(data) -> None:
     queue.append(data)
     print('push', queue)
 
-push(queue, 'Pinheiro')
+push('Pinheiro')
+push('Pinheiro')
+
 
 
 
