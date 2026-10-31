@@ -22,9 +22,17 @@ def pop(stack: list) -> list:
     stack.pop()
     return stack
 
+def last():
+	print(len(stack))
+	
+
 
 push(stack, "Pinheiro")
 push(stack, "dos")
 
 print(push(stack, "Santos"))
 print(pop(stack))
+
+last()
+
+
