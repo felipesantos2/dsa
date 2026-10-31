@@ -22,9 +22,10 @@ def pop(stack: list) -> list:
     stack.pop()
     return stack
 
-def last():
-	print(len(stack))
-	
+
+def last(stack)-> int | float | str | list | dict:
+    last = len(stack) - 1
+    return stack[last]
 
 
 push(stack, "Pinheiro")
@@ -33,6 +34,4 @@ push(stack, "dos")
 print(push(stack, "Santos"))
 print(pop(stack))
 
-last()
-
-
+print(last(stack))
